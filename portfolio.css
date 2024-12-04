@@ -342,7 +342,7 @@ nav ul {
   display: column;
   text-align: center;
   color: var(--text-white);
-  font-family: var(--font-3);
+  font-family: var(--font-1);
   height: fit-content;
   padding: 100px;
   background: radial-gradient(
