@@ -352,7 +352,7 @@ nav ul {
     )
     0% 100%;
 }
-.review h2{
+.review h2 {
   font-family: var(--font-4);
   color: #06b6d4;
   letter-spacing: 2px;
@@ -374,7 +374,7 @@ nav ul {
     )
     0% 100%;
 }
-.remarkup{
+.remarkup {
   margin-top: 20px;
 }
 .remark-wrapper {
@@ -521,7 +521,7 @@ input {
   display: flex;
   justify-content: center;
 }
-.imad img{
+.imad img {
   position: static;
   height: 120%;
 }
@@ -595,7 +595,7 @@ footer a {
   font-size: 20px;
   gap: 20px;
 }
-.dot{
+.dot {
   display: none;
 }
 /* RESPONSIVENESS */
@@ -637,8 +637,6 @@ footer a {
 }
 
 @media screen and (max-width: 950px) {
-
-
   #menu-bar {
     display: block;
   }
@@ -694,27 +692,27 @@ footer a {
   #project {
     margin: 0px 10px;
   }
-  .story-container{
+  .story-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .story-pics{
+  .story-pics {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .imad{
+  .imad {
     position: relative;
     height: 250px;
     width: 250px;
   }
-  .story{
+  .story {
     max-width: 90%;
     margin: 0 auto;
   }
-  .story h2{
+  .story h2 {
     text-align: center;
   }
 }
@@ -736,10 +734,10 @@ footer a {
   #project {
     margin: 20px 0px;
   }
-  .dot{
+  .dot {
     display: block;
   }
-  footer{
+  footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
