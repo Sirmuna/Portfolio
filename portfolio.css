@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 :root {
   --bg-dark: #111827;
@@ -24,6 +25,7 @@
 }
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 body {
   overflow-x: hidden;
@@ -186,6 +188,7 @@ nav ul {
     #11182742 700px 100%
   );
   background-color: transparent;
+  overflow: hidden;
 }
 .hero-txt {
   max-width: 50%;
