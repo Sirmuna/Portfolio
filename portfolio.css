@@ -28,12 +28,12 @@ html {
 body {
   overflow-x: hidden;
   background-color: var(--bg-dark);
-  width: 100vw;
+  width: 100%;
 }
 .main {
   position: relative;
   background-image: url(./img/svg/bg\ Line.svg);
-  z-index: 1000;
+
 }
 
 /* navigation bar */
@@ -45,6 +45,7 @@ header {
   top: 0;
   background-color: #ffffff13;
   backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   background: radial-gradient(
     circle at 50% -50%,
     #6c4bef73 50px 70px,
@@ -169,7 +170,7 @@ nav ul {
 /* hero section */
 .hero {
   height: 100vh;
-  max-width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -638,6 +639,8 @@ footer a {
 }
 
 @media screen and (max-width: 950px) {
+
+
   #menu-bar {
     display: block;
   }
@@ -654,7 +657,9 @@ footer a {
     max-width: 90%;
   }
   .hero-txt h1 {
-    font-size: 34px;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -1px;
   }
   .hero p {
     font-size: 18px;
