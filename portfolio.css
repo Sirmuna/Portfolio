@@ -28,6 +28,7 @@ html {
 body {
   overflow-x: hidden;
   background-color: var(--bg-dark);
+  width: 100vw;
 }
 .main {
   position: relative;
@@ -192,12 +193,12 @@ nav ul {
   letter-spacing: -2px;
   line-height: 54px;
   margin-bottom: 20px;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
 }
 
 .hero p {
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 28px;
 }
 .animate__bounceInUp {
