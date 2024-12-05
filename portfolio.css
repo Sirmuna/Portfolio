@@ -31,9 +31,7 @@ body {
   width: 100%;
 }
 .main {
-  position: relative;
   background-image: url(./img/svg/bg\ Line.svg);
-
 }
 
 /* navigation bar */
