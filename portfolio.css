@@ -28,10 +28,10 @@ html {
 body {
   overflow-x: hidden;
   background-color: var(--bg-dark);
-  width: 100%;
 }
 .main {
   background-image: url(./img/svg/bg\ Line.svg);
+  width: 100%;
 }
 
 /* navigation bar */
