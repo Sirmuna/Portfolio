@@ -215,7 +215,42 @@ nav ul {
   text-align: center;
   animation-delay: 1s;
 }
-
+/* hero button */
+.container{
+  position: relative;
+  padding: 2rem;
+}
+#btn{
+  position: relative;
+  background-color: transparent;
+  padding: 1rem;
+  outline: transparent;
+  font-family: var(--font-2);
+  border-radius: 10px;
+  color: var(--bg-light);
+  border: 2px solid var(--bg-light);
+  overflow: hidden;
+  transition: .5s;
+  width: 200px;
+  box-shadow: 1px 2px 16px var(--bg-light);
+}
+#btn:hover{
+  color: var(--text-white);
+}
+#btn::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(135deg, var(--bg-light), blue);
+  z-index: -1;
+  transition: .5s;
+}
+#btn:hover::before{
+  width: 100%;
+}
 /* motion text */
 .motion {
   color: var(--text-yellow);
